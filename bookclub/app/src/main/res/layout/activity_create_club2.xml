@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_club.CreateClub2Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/circle_gray" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/circle_orange" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_create_book_club2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a Book Club"
+            android:textAlignment="center"
+            android:textColor="#43C1E9"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/meetingDate_create_book_club1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Meeting Date"
+            android:textAlignment="textStart"
+            android:textColor="@color/text_grey"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editDate_create_book_club"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/narrow_input"
+            android:ems="10"
+            android:clickable="true"
+            android:focusable="false"
+            android:longClickable="false"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:textColor="#000000"
+            android:textColorHint="#BFBFBF"
+            android:padding="10dp"
+            android:hint="Set Meeting Date"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/meetingTime_create_book_club1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Meeting Time"
+            android:textAlignment="textStart"
+            android:textColor="@color/text_grey"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <EditText
+                android:id="@+id/meeting_time_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/narrow_input"
+                android:ems="10"
+                android:clickable="true"
+                android:focusable="false"
+                android:inputType="time"
+                android:textColor="#000000"
+                android:textColorHint="#BFBFBF"
+                android:hint="Start"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1.2"
+                android:text="to"
+                android:textAlignment="center"
+                android:textColor="@color/text_grey"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/meeting_time_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:background="@drawable/narrow_input"
+                android:clickable="true"
+                android:focusable="false"
+                android:inputType="time"
+                android:textColor="#000000"
+                android:textColorHint="#BFBFBF"
+                android:hint="End"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/address_create_book_club1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Address"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editAddress_create_book_club1"
+            android:layout_width="match_parent"
+            android:focusable="false"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/long_input"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:gravity="top"
+            android:textColor="#000000"
+            android:textColorHint="#BFBFBF"
+            android:hint="Set Address"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/back_create_club2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/blue_button_bright"
+            android:text="BACK"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/next_create_club2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_bright"
+            android:text="FINISH"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

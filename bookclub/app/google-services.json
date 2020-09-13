@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156305812884",
+    "firebase_url": "https://team-project-team24-744c3.firebaseio.com",
+    "project_id": "team-project-team24-744c3",
+    "storage_bucket": "team-project-team24-744c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156305812884:android:f567537fcdfee01c",
+        "android_client_info": {
+          "package_name": "com.xtracredit.team24.bookclubber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156305812884-5mphhls8at8k1t60l75fks60qfgpbk3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xtracredit.team24.bookclubber",
+            "certificate_hash": "04cde253f0e04e5e80218312d15520ae2c8719ce"
+          }
+        },
+        {
+          "client_id": "156305812884-q63crtkttu2q8iie7h0aspiut6or7lm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDutQa82ie2cf0z05HkwOkogMhPNY-0lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156305812884-q63crtkttu2q8iie7h0aspiut6or7lm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
